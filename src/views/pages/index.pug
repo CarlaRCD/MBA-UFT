@@ -1,0 +1,76 @@
+doctype html
+html(lang='es')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='stylesheet', href='css/styles.css')
+    title MBA - Finis Terrae
+    
+  body
+    main
+      header
+        img(src="./assets/icons/logo_FT.svg", alt="logo Finis Terrae")
+        .progress-container
+          .progress-bar#navBar
+      .banner-form
+        form(action=".")
+          h2 SOLICITA INFORMACIÓN
+          .form-grid
+            label Nombre:
+            input(type="text")
+            label Apellido:
+            input(type="text")
+            label E-mail:
+            input(type="mail")
+            label Télefono:
+            input(type="text")
+          button SOLICITAR
+      .banner-mba
+        h1 
+          img(src="./assets/img/logo_MBA.png", alt="Magíster en Administración de Empresas - Universidad Finis Terrae")
+      .section-requisitos
+        p Creamos un programa flexible de MBA con contenido de alto nivel, formamos líderes creativos con una fuerte capacidad de gestión que buscan ampliar conocimientos de negocios. Proporcionamos una educación personalizada, integral, dinámica, práctica y aplicada a los negocios de hoy.
+        .section-requisitos_lista
+          h4 REQUISITOS DE ADMISIÓN
+          .lista-flex
+            ul
+              li Currículum Vitae
+              li Grado académico de licenciado
+              li Certificado de Notas
+            ul
+              li Dos cartas confidenciales de recomendación
+              li Experiencia laboral mínima 3 años
+              li Entrevista con el DirectorAcadémico del programa
+      .banner-img
+        img(src="./assets/img/coffee.png", alt="imagen reunión")
+        .banner-img_filter
+      .section-info
+        .section-info_duracion
+          img(src="./assets/icons/icon_classroom.svg", alt="icono clases")
+          h4 DURACIÓN
+          ul
+            li 18 meses
+        .section-info_regularidad
+          img(src="./assets/icons/icon_calendar.svg", alt="icono calendario")
+          h4 CLASES 2 VECES AL MES 
+          h5 HORARIOS:
+          ul 
+            li Jueves 18:00 a 22:00 hrs.
+            li Viernes 18:00 a 22:00 hrs.
+            li Sábado 8:30 a 18:00 hrs.
+      .banner-img
+        img(src="./assets/img/calendar.png", alt="imagen reunión")
+        .banner-img_filter
+          h5 OBJETIVOS DE LA CARRERA
+      .section-description
+        p Fortalecer en sus profesionales las habilidades gerenciales y de liderazgo y creatividad, que les permitan gestionar el valor en las organizaciones en las cuales se desempeñan, integrando teoría y práctica en módulos dinámicos con uso intensivo de tecnología de vanguardia.
+        button#goToForm SOLICITA MÁS INFORMACIÓN
+      .banner-footer
+        .banner-footer_UFT
+          img(src="./assets/img/logo_FT-white.svg", alt="logo Finis Terrae")
+        .banner-footer_acreditacion
+          img(src="./assets/img/logo_acreditacion.svg", alt="logo acreditación")
+
+    script(src="js/libs/jquery.js")
+    script(src="js/funciones.js")
